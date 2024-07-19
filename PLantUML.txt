@@ -1,0 +1,69 @@
+@startuml
+
+!define RECTANGLE rect
+!define ENTITY entity
+
+package "LexBillServices" {
+    ENTITY Clientes {
+        + ClienteId : INT PK
+        --
+        Nombre : NVARCHAR(100)
+
+        Apellido : NVARCHAR(100)
+        Email : NVARCHAR(100)
+        Telefono : NVARCHAR(20)
+        Direccion : NVARCHAR(200)
+    }
+
+    ENTITY Productos {
+        + ProductoId : INT PK
+        --
+        Nombre : NVARCHAR(100)
+        CodigoProducto : NVARCHAR(50)
+        CodigoBarras : NVARCHAR(50)
+        SKU : NVARCHAR(50)
+        Precio : DECIMAL(18, 2)
+        Stock : INT
+    }
+
+    ENTITY Pedidos {
+        + PedidoId : INT PK
+        --
+        ClienteId : INT FK
+        Fecha : DATE
+        ITBMS : DECIMAL(18, 2)
+        Total : DECIMAL(18, 2)
+    }
+
+    ENTITY DetallesPedidos {
+        + DetallePedidoId : INT PK
+        --
+        PedidoId : INT FK
+        ProductoId : INT FK
+        Cantidad : INT
+        Precio : DECIMAL(18, 2)
+    }
+
+    ENTITY Facturas {
+        + FacturaId : INT PK
+        --
+        PedidoId : INT FK
+        Fecha : DATE
+        Total : DECIMAL(18, 2)
+    }
+
+    ENTITY TipoCambio {
+        + TipoCambioId : INT PK
+        --
+        Moneda : NVARCHAR(3)
+        Tasa : DECIMAL(18, 4)
+        Fecha : DATE
+    }
+}
+
+Clientes ||..o{ Pedidos : "ClienteId"
+Pedidos ||..o{ DetallesPedidos : "PedidoId"
+Productos ||..o{ DetallesPedidos : "ProductoId"
+Pedidos ||..o{ Facturas : "PedidoId"
+
+@enduml
