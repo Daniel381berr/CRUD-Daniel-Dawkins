@@ -1,0 +1,29 @@
+﻿@model Producto
+
+<form asp-action="Crear" method="post">
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="CodigoProducto"></label>
+        <input asp-for="CodigoProducto" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="CodigoBarras"></label>
+        <input asp-for="CodigoBarras" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="SKU"></label>
+        <input asp-for="SKU" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Precio"></label>
+        <input asp-for="Precio" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Stock"></label>
+        <input asp-for="Stock" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

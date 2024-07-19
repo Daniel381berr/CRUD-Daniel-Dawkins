@@ -1,0 +1,134 @@
+﻿@model IEnumerable<Pedido>
+
+<h2>Pedidos</h2>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#crearModal">Crear Pedido</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Cliente ID</th>
+            <th>Fecha</th>
+            <th>ITBMS</th>
+            <th>Total</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pedido in Model)
+        {
+            <tr>
+                <td>@pedido.PedidoId</td>
+                <td>@pedido.ClienteId</td>
+                <td>@pedido.Fecha.ToShortDateString()</td>
+                <td>@pedido.ITBMS.ToString("C")</td>
+                <td>@pedido.Total.ToString("C")</td>
+                <td>
+                    <button class="btn btn-sm btn-warning editar-pedido" data-id="@pedido.PedidoId">Editar</button>
+                    <button class="btn btn-sm btn-danger eliminar-pedido" data-id="@pedido.PedidoId">Eliminar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modales -->
+<div class="modal fade" id="crearModal" tabindex="-1" role="dialog" aria-labelledby="crearModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="crearModalLabel">Crear Pedido</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- El contenido se cargará dinámicamente -->
+                @* @await Html.PartialAsync("_Crear", new Pedido()) *@
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editarModal" tabindex="-1" role="dialog" aria-labelledby="editarModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editarModalLabel">Editar Pedido</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- El contenido se cargará dinámicamente -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="eliminarModal" tabindex="-1" role="dialog" aria-labelledby="eliminarModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="eliminarModalLabel">Eliminar Pedido</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- El contenido se cargará dinámicamente -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Crear
+            $('#crearModal').on('show.bs.modal', function (e) {
+                $(this).find('.modal-body').load('@Url.Action("Crear")');
+            });
+
+            // Editar
+            $('.editar-pedido').click(function () {
+                var id = $(this).data('id');
+                $('#editarModal').find('.modal-body').load('@Url.Action("Editar")/' + id, function () {
+                    $('#editarModal').modal('show');
+                });
+            });
+
+            // Eliminar
+            $('.eliminar-pedido').click(function () {
+                var id = $(this).data('id');
+                $('#eliminarModal').find('.modal-body').load('@Url.Action("Eliminar")/' + id, function () {
+                    $('#eliminarModal').modal('show');
+                });
+            });
+
+            // Manejar envío de formularios
+            $(document).on('submit', 'form', function (e) {
+                e.preventDefault();
+                var form = $(this);
+                $.ajax({
+                    url: form.attr('action'),
+                    method: form.attr('method'),
+                    data: form.serialize(),
+                    success: function (result) {
+                        if (result.success) {
+                            $('.modal').modal('hide');
+                            location.reload();
+                        } else {
+                            // Manejar errores
+                            alert('Hubo un error al procesar la solicitud.');
+                        }
+                    },
+                    error: function () {
+                        alert('Hubo un error al procesar la solicitud.');
+                    }
+                });
+            });
+        });
+    </script>
+}

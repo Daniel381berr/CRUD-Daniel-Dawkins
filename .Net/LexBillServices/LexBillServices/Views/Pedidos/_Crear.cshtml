@@ -1,0 +1,34 @@
+﻿ @model CrearPedidoViewModel
+
+<form asp-action="Crear" asp-controller="Pedidos" method="post">
+    <div class="form-group">
+        <label asp-for="Pedido.ClienteId">Cliente ID</label>
+        <input asp-for="Pedido.ClienteId" class="form-control" />
+        <span asp-validation-for="Pedido.ClienteId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pedido.Fecha">Fecha</label>
+        <input asp-for="Pedido.Fecha" type="date" class="form-control" />
+        <span asp-validation-for="Pedido.Fecha" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pedido.ITBMS">ITBMS</label>
+        <input asp-for="Pedido.ITBMS" class="form-control" />
+        <span asp-validation-for="Pedido.ITBMS" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pedido.Total">Total</label>
+        <input asp-for="Pedido.Total" class="form-control" />
+        <span asp-validation-for="Pedido.Total" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ProductoId">Producto</label>
+        <select id="ProductoId" name="ProductoId" class="form-control">
+            @foreach (var producto in Model.Productos)
+            {
+                <option value="@producto.ProductoId">@producto.Nombre</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>

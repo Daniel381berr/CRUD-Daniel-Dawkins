@@ -1,0 +1,24 @@
+﻿@model Pedido
+
+<form asp-action="EliminarConfirmado" asp-controller="Pedidos" method="post">
+    <input type="hidden" asp-for="PedidoId" />
+    <p>¿Está seguro de que desea eliminar este pedido?</p>
+    <dl class="row">
+        <dt class="col-sm-3">ID del Pedido</dt>
+        <dd class="col-sm-9">@Model.PedidoId</dd>
+
+        <dt class="col-sm-3">Cliente ID</dt>
+        <dd class="col-sm-9">@Model.ClienteId</dd>
+
+        <dt class="col-sm-3">Fecha</dt>
+        <dd class="col-sm-9">@Model.Fecha.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">ITBMS</dt>
+        <dd class="col-sm-9">@Model.ITBMS.ToString("C")</dd>
+
+        <dt class="col-sm-3">Total</dt>
+        <dd class="col-sm-9">@Model.Total.ToString("C")</dd>
+    </dl>
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+</form>

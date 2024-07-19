@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\data\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\data\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\views\\pedidos\\_crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\views\\pedidos\\_crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\views\\pedidos\\_editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\views\\pedidos\\_editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\data\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\data\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\views\\pedidos\\_eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\views\\pedidos\\_eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|c:\\users\\dario\\source\\repos\\lexbillservices\\lexbillservices\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCFFF40E-B939-4307-B50B-AFD7846B8A01}|LexBillServices\\LexBillServices.csproj|solutionrelative:lexbillservices\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LexBillServices\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LexBillServices\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T05:52:12.733Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\_Editar.cshtml",
+              "RelativeDocumentMoniker": "LexBillServices\\Views\\Pedidos\\_Editar.cshtml",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\_Editar.cshtml",
+              "RelativeToolTip": "LexBillServices\\Views\\Pedidos\\_Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T08:49:30.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\_Crear.cshtml",
+              "RelativeDocumentMoniker": "LexBillServices\\Views\\Pedidos\\_Crear.cshtml",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\_Crear.cshtml",
+              "RelativeToolTip": "LexBillServices\\Views\\Pedidos\\_Crear.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T08:47:56.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "LexBillServices\\Views\\Pedidos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\Index.cshtml",
+              "RelativeToolTip": "LexBillServices\\Views\\Pedidos\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T08:46:40.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "LexBillServices\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "LexBillServices\\Controllers\\PedidosController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T08:42:27.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Data\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "LexBillServices\\Data\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Data\\PedidoRepository.cs",
+              "RelativeToolTip": "LexBillServices\\Data\\PedidoRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T08:36:25.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "LexBillServices\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Models\\Pedido.cs",
+              "RelativeToolTip": "LexBillServices\\Models\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T08:30:13.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Data\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "LexBillServices\\Data\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Data\\ProductoRepository.cs",
+              "RelativeToolTip": "LexBillServices\\Data\\ProductoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T05:47:24.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\_Eliminar.cshtml",
+              "RelativeDocumentMoniker": "LexBillServices\\Views\\Pedidos\\_Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\Dario\\source\\repos\\LexBillServices\\LexBillServices\\Views\\Pedidos\\_Eliminar.cshtml",
+              "RelativeToolTip": "LexBillServices\\Views\\Pedidos\\_Eliminar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T08:49:47.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

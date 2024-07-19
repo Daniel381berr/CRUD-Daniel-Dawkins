@@ -1,0 +1,26 @@
+﻿@model Pedido
+
+<form asp-action="Editar" asp-controller="Pedidos" method="post">
+    <input type="hidden" asp-for="PedidoId" />
+    <div class="form-group">
+        <label asp-for="ClienteId">Cliente ID</label>
+        <input asp-for="ClienteId" class="form-control" />
+        <span asp-validation-for="ClienteId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Fecha">Fecha</label>
+        <input asp-for="Fecha" type="date" class="form-control" />
+        <span asp-validation-for="Fecha" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ITBMS">ITBMS</label>
+        <input asp-for="ITBMS" class="form-control" />
+        <span asp-validation-for="ITBMS" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Total">Total</label>
+        <input asp-for="Total" class="form-control" />
+        <span asp-validation-for="Total" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+</form>

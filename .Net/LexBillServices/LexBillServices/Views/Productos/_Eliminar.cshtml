@@ -1,0 +1,8 @@
+﻿@model Producto
+
+<form id="formEliminar" asp-controller="Productos" asp-action="EliminarConfirmado" method="post">
+    <input type="hidden" asp-for="ProductoId" />
+    <p>¿Está seguro que desea eliminar el producto "@Model.Nombre" con "@Model.CodigoProducto"?</p>
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+</form>

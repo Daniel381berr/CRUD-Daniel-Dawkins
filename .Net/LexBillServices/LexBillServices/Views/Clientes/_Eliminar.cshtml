@@ -1,0 +1,9 @@
+﻿@model Cliente
+
+<form class="eliminar-form" asp-action="Eliminar" method="post">
+    <input type="hidden" asp-for="ClienteId" />
+    <div class="form-group">
+        <p>¿Estás seguro de que deseas eliminar a @Model.Nombre @Model.Apellido?</p>
+    </div>
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+</form>
